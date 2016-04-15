@@ -14,11 +14,11 @@ def pangramTest?(input)
   if missing_letters.empty?
     puts "Perfect Pangram!"
   else
-    puts missing_letters.join('')
+    puts "These letters were missing: " + missing_letters.join('')
   end
 end 
 
-  
+puts "## RESULTS ##"
 puts pangramTest?('we promptly judge antique ivory buckles for the next prize')
 puts pangramTest?('we promptly judge antique ivory buckles for the prize')
 puts pangramTest?('the quick brown fox jumps over the lazy dog')
