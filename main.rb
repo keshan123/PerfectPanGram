@@ -17,8 +17,9 @@ def pangramTest?(input)
     puts "These letters were missing: " + missing_letters.join('')
   end
 end 
-
+puts ""
 puts "## RESULTS ##"
+puts ""
 puts pangramTest?('we promptly judge antique ivory buckles for the next prize')
 puts pangramTest?('we promptly judge antique ivory buckles for the prize')
 puts pangramTest?('the quick brown fox jumps over the lazy dog')
